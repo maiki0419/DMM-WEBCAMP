@@ -232,13 +232,21 @@ footer {
     width: 100%;
   }
 
-  .nav-list-item{
-    display: block;
-    margin-bottom: 10px;
-  }
+ .nav-list{
+   width: 100%;
+ }
+
+ .nav-list-item{
+   width: 100%;
+   margin: 0 0 10px 0;
+ }
 
   .main-visual-content{
     width: 100%;
+  }
+
+  .social{
+    display: none;
   }
 
   main{
@@ -251,17 +259,38 @@ footer {
   }
 
   .blog-box{
-    margin-left: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
-  .category{
-    display: none;
+  .blog-image{
+    width: 49%;
   }
+
+  .blog-text{
+    width: 49%;
+    padding-top: 5px;
+  }
+
+
 
   .sidebar{
-    margin-left: 10px;
-    margin-top: 50px;
     width: 100%;
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .instagram-box{
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
+
+  .pagination{
+    margin-bottom: 50px;
   }
 }
 

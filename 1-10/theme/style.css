@@ -71,3 +71,44 @@ footer{
   height: 50px;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px){
+  main{
+    width: 100%;
+    display: block;
+    padding: 0 50px;
+  }
+
+  .box{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .step{
+    font-size: 25px;
+  }
+
+  .title{
+    font-size: 27px;
+  }
+
+  .box-img1{
+    height: 250px;
+  }
+
+  .box-img2{
+    height: 250px;
+  }
+
+  .box-img3{
+    height: 250px;
+  }
+
+  .box p{
+    font-size: 21.5px;
+  }
+
+  .box:last-child{
+    margin-bottom: 0px;
+  }
+}
