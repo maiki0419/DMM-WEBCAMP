@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin:25px 40px;
+  font-size: 25px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.top-text{
+  margin-left:80px;
+}
+
+.top-text p{
+  padding-bottom: 25px;
+  font-size: 15px;
+}
+
+.top-text a{
+  border-bottom:solid 1px ;
+  font-size:15px;
+}
