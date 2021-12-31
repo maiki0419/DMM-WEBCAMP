@@ -5,7 +5,8 @@
 }
 
 h1{
-  margin:25px 40px;
+  margin-left: 40px;
+  margin-top:25px;
   font-size: 25px;
 }
 
@@ -13,16 +14,62 @@ strong{
   font-weight: bold;
 }
 
-.top-text{
-  margin-left:80px;
+.notice{
+  color:green;
+  margin-top:40px;
+  margin-left:60px;
 }
 
-.top-text p{
+.top-main{
+  margin:25px 80px;
+}
+
+.top-main p{
   padding-bottom: 25px;
   font-size: 15px;
 }
 
-.top-text a{
+.top-main a{
   border-bottom:solid 1px ;
   font-size:15px;
+}
+
+.index-main{
+  margin-left: 45px;
+}
+
+td{
+  padding-left: 10px;
+}
+
+.index-main h2{
+  margin-top: 10px;
+}
+
+.submit{
+  display: block;
+}
+
+.error{
+  margin:20px 0;
+  padding:30px;
+  display:inline-block;
+  background-color: red;
+  color:white;
+}
+
+.show-main{
+  margin: 30px 60px;
+}
+
+.show-main p{
+  margin:25px;
+  font-size: 13px;
+}
+.show-main strong{
+  font-size: 15px;
+}
+
+.edit-main{
+  margin-left: 45px;
 }

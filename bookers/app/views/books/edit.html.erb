@@ -1,2 +1,25 @@
-<h1>Books#edit</h1>
-<p>Find me in app/views/books/edit.html.erb</p>
+<h1>Editing Book</h1>
+
+<main class="edit-main">
+    <% if @book.errors.any? %>
+      <div class="error">
+        <%= @book.errors.count %>error has occurred
+        <% @book.errors.full_messages.each do |message| %>
+          <ul>
+            <li><%= message %></li>
+          </ul>
+        <% end %>
+      </div>
+      
+    <% end %>
+    <%= form_with model: @book,url: update_book_path,method: :patch, local: true do |f| %>
+      <p>title</p>
+      <%= f.text_field :title  %>
+      <p>body</p>
+      <%= f.text_area :body%>
+      <%= f.submit "Update Book", class:"submit" %>
+    <% end %>
+    <%= link_to "Show",book_path(@book.id) %> |
+    <%= link_to "Back",'/books' %>
+</main>
+
