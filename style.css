@@ -1,114 +1,83 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+header {
+  background-color: #ff9a4b;
   width: 100%;
   height: 50px;
-  background-color: #FF9A4B;
 }
 
-main{
+main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
-.box{
+.box {
   width: 300px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
+  margin-left: 30px;
   padding: 10px;
   position: relative;
-  margin-right: 30px;
 }
 
-.box:last-child{
+.box:last-child {
   margin-right: 0;
 }
 
-.box-img1{
+.box-image {
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-.box-img2{
+.box-image2 {
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-.box-img3{
+.box-image3 {
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-
-
-.step{
-  color: white;
-  background-color: #FF9A4B;
+.step {
+  background-color: #ff9a4b;
   display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
+  color: white;
 }
 
-.title{
-  padding-top: 15px;
-  padding-bottom: 5px;
+.box-text h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
-footer{
+footer {
+  background-color: #aaaaaa;
   width: 100%;
   height: 50px;
-  background-color: #AAAAAA;
 }
 
-@media screen and (max-width: 768px){
-  main{
-    width: 100%;
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
     display: block;
-    padding: 0 50px;
   }
 
-  .box{
+  .box {
     width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .step{
-    font-size: 25px;
-  }
-
-  .title{
-    font-size: 27px;
-  }
-
-  .box-img1{
-    height: 250px;
-  }
-
-  .box-img2{
-    height: 250px;
-  }
-
-  .box-img3{
-    height: 250px;
-  }
-
-  .box p{
-    font-size: 21.5px;
-  }
-
-  .box:last-child{
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 0;
   }
 }
